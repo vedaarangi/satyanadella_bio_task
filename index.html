@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,4 +42,97 @@
 </form>
 </body>
 
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+<style>
+        body {
+            background-image: url('bg.jpg'); 
+            background-size: cover; 
+            background-repeat: no-repeat;
+        }  
+        * {
+         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif   
+        }
+        .registration-box {
+            background-color: white;
+            margin: auto;
+            padding: 20px;
+            width: 300px;
+            border-radius: 10px;
+            text-align: center;
+            margin-top: 10%;
+            
+        }
+        .registration-box input {
+            margin-bottom: 20px;
+            padding: 5px;
+            width: 100%;
+            outline: none;
+            border: none;
+            border-bottom: 1.5px solid #000000;
+            
+        }
+        .submit-btn button{
+            background-color: #000000;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+}
+.gender-group {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px; 
+    }
+    .gender-group label {
+        margin: 0;
+    }
+    .dob {
+        margin: 10px 0;
+        text-align: left;
+        
+    }
+</style>
+</head>
+<body>
+    <form class="registration-box" action="login.html">
+        <h1>Registration portal</h1>
+     <div>
+        <input type="text" placeholder="Enter your name" id="name" name="name" required>
+    </div>
+    <div>
+        <input type="email" placeholder="Enter your email" id="email" name="email" required>
+    </div> 
+    <div>
+        <input type="password" placeholder="Enter your password" id="password" name="password" required>
+    </div>
+    <div>
+        <input type="password" placeholder="Confirm your password" id="confirm_password" name="confirm_password" required>
+    </div>
+    <div>
+        <input type="number" placeholder="Enter your mobile number" id="mobile" name="mobile" required>
+</div>
+    <div class="gender-group">
+            <input type="radio" name="gender" id="male" required>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" required>
+            <label for="female">Female</label>
+        </div>
+    </div>
+        <textarea name="address" id="">Enter your address</textarea>
+    <div class="dob">
+        <label for="date of birth">Date of Birth</label>
+        <input type="date" placeholder="Enter your date of birth" id="date of birth" name="date of birth" required>
+    </div>
+    <div class="submit-btn"><button>Submit</button>
+    </div>
+</form>
+</body>
+>>>>>>> f2cc659 (stylings added)
 </html>
